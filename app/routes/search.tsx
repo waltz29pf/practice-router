@@ -1,6 +1,4 @@
-import React from "react";
-
-const Search = () => {
+export default function Search() {
 	return (
 		<div>
 			<div className="flex sm:ml-64">
@@ -8,6 +6,4 @@ const Search = () => {
 			</div>
 		</div>
 	);
-};
-
-export default Search;
+}

@@ -1,6 +1,4 @@
-import React from "react";
-
-const Popular = () => {
+export default function Popular() {
 	return (
 		<div>
 			<div className="flex sm:ml-64">
@@ -8,6 +6,4 @@ const Popular = () => {
 			</div>
 		</div>
 	);
-};
-
-export default Popular;
+}
